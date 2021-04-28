@@ -19,7 +19,7 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
-        <div className="social-links">
+        {/* <div className="social-links">
           {networks &&
             networks.map((network) => {
               const { id, name, url } = network;
@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </p>
 
-        {isEnabled && <GithubButtons />}
+        {isEnabled && <GithubButtons />} */}
       </Container>
     </footer>
   );
